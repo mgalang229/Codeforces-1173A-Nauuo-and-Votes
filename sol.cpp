@@ -10,15 +10,11 @@ int main() {
 	if(x>y) {
 		if(x<=y+z)
 			cout << '?';
-		else if(x<y+z)
-			cout << '-';
 		else
 			cout << '+';
 	} else if(x<y) {
 		if(y<=x+z)
 			cout << '?';
-		else if(x+z>y)
-			cout << '+';
 		else
 			cout << '-';
 	} else if(x==y) {
